@@ -1,7 +1,7 @@
-# Uniswap V3 Subgraph
+# Uniswap V3 Subgraph on Sepolia
 
 ### Subgraph Endpoint 
 
-Synced at: https://thegraph.com/hosted-service/subgraph/ianlapham/uniswap-v3-subgraph?selected=playground
+Synced at: {{ insert url here when published }}
 
 Pending Changes at same URL
