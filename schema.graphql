@@ -83,6 +83,7 @@ type Pool @entity {
   token0: Token!
   # token1
   token1: Token!
+  token0AndToken1: String # address (token0/token1)
   # fee amount
   feeTier: BigInt!
   # in range liquidity

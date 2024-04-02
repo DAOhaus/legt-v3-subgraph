@@ -110,6 +110,7 @@ export function handlePoolCreated(event: PoolCreated): void {
 
   pool.token0 = token0.id
   pool.token1 = token1.id
+  pool.token0AndToken1 = token0.id.concat(token1.id)
   pool.feeTier = BigInt.fromI32(event.params.fee)
   pool.createdAtTimestamp = event.block.timestamp
   pool.createdAtBlockNumber = event.block.number
